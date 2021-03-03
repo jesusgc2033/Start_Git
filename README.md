@@ -92,7 +92,13 @@ Type git commit -m "workflow" and then type git status once more. The output sho
 6) add 
  
   
-  
+  echo "# git-test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jesusgc2033/git-test.git
+git push -u origin main
   
  
 
