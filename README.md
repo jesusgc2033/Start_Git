@@ -81,24 +81,32 @@ Type git commit -m "workflow" and then type git status once more. The output sho
     # cd git-test
 
 3)  create file
-    # touch index.html
+    # touch README.md
    
 4)  Add text
-    # echo "first test repo" >> index.html
+    # echo "first test repo" >> README.md
    
 5) inicialize repository 
     # git init
     
-6) add 
+6) add file
+    # git add README.md
+
+7) first commit
+    # git commit -m "first commit"
+    
+8) branch
+    # git branch -M main
+
+9) add remote to repository
+    # git remote add origin https://github.com/jesusgc2033/git-test.git
+
+10) push repo
+    # git push -u origin main
+
  
   
-  echo "# git-test" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/jesusgc2033/git-test.git
-git push -u origin main
+
   
  
 
