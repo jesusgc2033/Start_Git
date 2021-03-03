@@ -62,15 +62,34 @@ Type git commit -m "workflow" and then type git status once more. The output sho
  
   # git pull workflow.txt
   
- //////Process////////
- 
+ //////////////
+ mkdir ""
+ cd ""
+ touch "".html
  git add ""             // tracks your files and changes in git
  git commit (-m -a)""   // Saves your files and changes in git
  git push origin main   // Uploads git commits to github
  git pull ""            // Downloads git repo to local
  
- //////////////////////
- 
+ ///////////////
+                   TEST REPOSITORY 
+                   
+ 1) Create a local directory
+    # mkdir git-test 
+   
+ 2) Enter fdirectory
+    # cd git-test
+
+3)  create file
+    # touch index.html
+   
+4)  Add text
+    # echo "first test repo" >> index.html
+   
+5) inicialize repository 
+    # git init
+    
+6) add 
  
   
   
